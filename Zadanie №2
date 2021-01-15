@@ -3,7 +3,7 @@
 /*"use strict";globalThis.__codeBoxId = "z3ajqx0xha";*/
 for (let i = 0; i <= 30; i++) {
   if (i % 2 == 0) {
-    alert( i );
+    console.log( i );
   }
 }
 </script>
