@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Z7.1-7.4</title>
+</head>
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", () => {
+    document.body.style.backgroundColor = "red";
+
+
+    setTimeout(() => {
+        document.body.style.backgroundColor = "green";    
+    }, 5000);
+})
+
+	function play(){
+		document.body.style.backgroundColor='orange';
+		setTimeout('back',1000);
+	}
+	
+
+</script>
+<body>
+<input type="button" value="Orange" onclick="play()">
+</body>
+</html>
